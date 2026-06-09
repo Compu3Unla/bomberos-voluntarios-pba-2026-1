@@ -1,0 +1,54 @@
+:root{
+    --blanco: #E2E2E2;
+    --rojo-fuego: #8B1812;
+    --gris-ceniza: #303237;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "ibm-plex-sans", sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+header.navegador{
+    display: flex;
+    background-color: var(--gris-ceniza);
+}
+
+.valores .container .valores-grid {
+    background-color: var(--rojo-fuego);
+}
+
+.valores .container .valores-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: var(--blanco);
+}
+
+.valores .container .valores-grid .valores-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.container-resultados {
+    background-color: var(--blanco);
+}
+
+.resultados .container .titulo-resultados h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+}
