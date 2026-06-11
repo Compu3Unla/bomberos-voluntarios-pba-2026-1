@@ -16,45 +16,59 @@
 
 <body>
 
-    <!-- HEADER -->
-    <header class="navegador">
-        <div class="container">
+    <header class="navbar">
 
-            <a href="#" class="logo">
-                <img src="img/logo.svg" alt="Logo Federación">
+        <div class="logo">
+            <a href="index.html">
+                <img src="iconos/Recurso 20.png" alt="logo_federación">
             </a>
-
+        </div>
             <nav class="nav">
-                <ul class="nav__list">
+                <ul>
                     <li><a href="#">Nosotros</a></li>
                     <li><a href="#">Regiones</a></li>
                     <li><a href="#">Formar Parte</a></li>
                 </ul>
             </nav>
 
-            <a href="#" class="boton-gib">GIB</a>
-
-        </div>
+        
     </header>
 
     <main>
 
         <!-- HERO -->
-        <section class="hero">
+<section class="hero">
 
-            <div class="hero-imegen">
+    <div class="slider">
 
-                <div class="container">
+        <div class="slides">
 
-                    <h1 class="titulo-hero">
-                        La Federación es <span>Servicio</span>
-                    </h1>
-
+            <div class="slide">
+                <div class="content">
+                    <h1>LA FEDERACION ES SERVICIO</h1>
                 </div>
-
             </div>
 
-        </section>
+            <div class="slide">
+                <div class="content">
+                    <h1>BUSCANDO MEJORAR SIEMPRE</h1>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <h1>NO TE PIERDAS NUESTROS AVANCES</h1>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="prev">←</button>
+        <button class="next">→</button>
+
+    </div>
+
+</section>
 
         <section class="valores">
 
@@ -235,6 +249,8 @@
         </section>
 
     </footer>
+
+    <script src="slider.js"></script>
 
 </body>
 
