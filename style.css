@@ -422,3 +422,91 @@ footer .footer-preguntas a {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+
+/* GABRIEL - PAGINA FORMA PARTE ESTILOS */
+
+.hero-formar-parte{
+    height: 70vh;
+    background-image: url("img/1.png");
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+}
+
+.hero-formar-parte::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.4);
+}
+
+.hero-overlay{
+    position:relative;
+    z-index:2;
+    text-align:center;
+    color:white;
+}
+
+.hero-overlay h1{
+    font-size:4rem;
+}
+
+.historia,
+.intro-inscripcion,
+.inscripcion,
+.multimedia{
+    padding:4rem;
+}
+
+.historia header,
+.intro-inscripcion header,
+.inscripcion header,
+.multimedia header{
+    text-align:center;
+    margin-bottom:2rem;
+}
+
+.historia-contenido,
+.intro-inscripcion{
+    max-width:900px;
+    margin:0 auto;
+    text-align:center;
+    line-height:1.8rem;
+}
+
+.inscripcion form{
+    max-width:700px;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+}
+
+.inscripcion input,
+.inscripcion textarea{
+    padding:12px;
+    border:1px solid #ccc;
+}
+
+.inscripcion button{
+    background-color:var(--rojo-fuego);
+    color:var(--blanco);
+    border:none;
+    padding:15px;
+    cursor:pointer;
+}
+
+.multimedia-contenido{
+    display:flex;
+    justify-content:center;
+}
+
+.multimedia-contenido img{
+    max-width:700px;
+    width:100%;
+    border-radius:20px;
+}
