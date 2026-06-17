@@ -201,6 +201,10 @@ header .nav ul {
     right: 20px;
 }
 
+.hero .slider .slides .slide h2 {
+    font-size: 80px;
+}
+
 /* --------------------------- */
 
 
@@ -656,7 +660,7 @@ form {
 
 .inscripcion button {
     background-color: var(--rojo-fuego);
-    color: var(--blanco);
+    color: white;
     border: none;
     padding: 15px;
     cursor: pointer;
@@ -668,7 +672,7 @@ form {
 }
 
 .inscripcion button:hover {
-    background-color: #6f120d;
+    background-color: var(--rojo-fuego);
     transform: scale(1.01);
     transition: all 0.2s ease;
 }
@@ -684,7 +688,7 @@ form {
     border-radius: 20px;
 }
 
-/* Media queries - Home */
+/* MEDIA QUERIES - HOME */
 
 @media screen and (max-width: 500px) {
 
