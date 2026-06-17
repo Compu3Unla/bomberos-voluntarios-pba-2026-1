@@ -15,76 +15,86 @@
 </head>
 
 <body>
-
     <header class="navbar">
 
-    <div class="logo">
-        <a href="index.html">
-            <img src="iconos/Recurso 20.png" alt="logo_federación">
-        </a>
-    </div>
+        <div class="logo">
+            <a href="index.html">
+                <img src="iconos/Recurso 20.png" alt="logo_federación">
+            </a>
+        </div>
 
-    <nav class="nav">
-        <ul>
-            <li><a href="index.html">Volver al inicio</a></li>
-        </ul>
-    </nav>
+        <audio class="audio-nav" src="audio/fun and chill elevator videogame music ♡ .mp3" controls autoplay loop></audio>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="forma-parte.html">Nuestra historia</a></li>
+            </ul>
+        </nav>
+
 
     </header>
 
     <main>
-<section class="inscripcion">
 
-    <header>
 
-        <h2>FORMULARIO DE INSCRIPCIÓN</h2>
 
-        <p>
-            Completá los siguientes datos para iniciar tu proceso de inscripción
-            como Bombero Voluntario.
-        </p>
+        <section class="inscripcion">
 
-    </header>
+            <header class="header-formulario">
 
-    <form>
+                <div class="titulo-con-logos">
+                    <div class="logo-titulo"></div>
 
-        <label for="nombre">Nombre y Apellido</label>
-        <input type="text" id="nombre" name="nombre" required>
+                    <h2>FORMULARIO DE INSCRIPCIÓN</h2>
 
-        <label for="edad">Edad</label>
-        <input type="number" id="edad" name="edad" min="18" required>
+                    <div class="logo-titulo"></div>
+                </div>
 
-        <label for="email">Correo Electrónico</label>
-        <input type="email" id="email" name="email" required>
+                <p>
+                    Completá los siguientes datos para iniciar tu proceso de inscripción
+                    como Bombero Voluntario. Una vez hayamos registrado tus datos te llegara un mail para informarte los
+                    pasos a seguir par continuar con el proceso de ingreso.
+                </p>
 
-        <label for="telefono">Teléfono</label>
-        <input type="tel" id="telefono" name="telefono" required>
+            </header>
 
-        <label for="localidad">Localidad</label>
-        <input type="text" id="localidad" name="localidad" required>
 
-        <label for="direccion">Dirección</label>
-        <input type="text" id="direccion" name="direccion">
 
-        <label for="motivo">
-            ¿Por qué querés formar parte de la Federación?
-        </label>
+            <form>
 
-        <textarea
-            id="motivo"
-            name="motivo"
-            rows="6"
-            required>
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="edad">Edad</label>
+                <input type="number" id="edad" name="edad" min="18" required>
+
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="localidad">Localidad</label>
+                <input type="text" id="localidad" name="localidad" required>
+
+                <label for="direccion">Dirección</label>
+                <input type="text" id="direccion" name="direccion">
+
+                <label for="motivo">
+                    ¿Por qué querés formar parte de la Federación?
+                </label>
+
+                <textarea id="motivo" name="motivo" rows="6" required>
         </textarea>
 
-        <button type="submit">
-            Enviar Solicitud
-        </button>
+                <button type="submit" class="enviar-solicitud">
+                    Enviar Solicitud
+                </button>
 
-    </form>
+            </form>
 
-</section>
-        
+        </section>
+
     </main>
 
     <footer>
@@ -113,11 +123,11 @@
 
         </section>
 
-        <section class="footer-preguntas">
+        <section class="footer-historia">
 
-            <h3>Preguntas frecuentes</h3>
+            <h3>Nuestra historia</h3>
 
-            <a href="#">Hacé click aquí y descubri más</a>
+            <a href="forma-parte.html">Hacé click aquí y descubri más</a>
 
         </section>
 
