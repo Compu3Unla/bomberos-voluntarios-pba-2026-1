@@ -696,9 +696,9 @@ form {
 display: none;
 }
 
-    .hero .slider .slides .slide  {
+    .hero .slider .slides .slide .content h2 {
 
-        font-size: 20px;
+        font-size: 50px;
         padding: 28px;
     }
 
