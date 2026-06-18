@@ -528,55 +528,124 @@ footer .footer-historia a:hover {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0,0,0,.5);
 }
 
 .hero-overlay {
     position: relative;
     z-index: 2;
-    text-align: center;
     color: white;
+    text-align: center;
 }
 
 .hero-overlay h1 {
     font-size: 4rem;
 }
 
-.historia,
-.intro-inscripcion,
-.inscripcion,
-.multimedia {
-    padding: 4rem;
+/* HISTORIA */
+
+.historia {
+    padding: 5rem;
 }
 
-.historia header,
-.intro-inscripcion header,
-.inscripcion header,
-.multimedia header {
-    text-align: center;
-    margin-bottom: 2rem;
+.historia-contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
 }
 
-.historia-contenido,
-.intro-inscripcion {
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: center;
+.historia-texto p {
+    margin-top: 1rem;
     line-height: 1.8rem;
 }
 
-/* FORMULARIO */
+.historia-imagen img {
+    width: 100%;
+    border-radius: 20px;
+}
 
-.header-formulario {
+/* BENEFICIOS */
+
+.beneficios {
+    background-color: var(--gris-ceniza);
+    color: white;
+    text-align: center;
+    padding: 5rem;
+}
+
+.beneficios-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.beneficio-card {
+    background-color: var(--rojo-fuego);
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+/* VIDEO */
+
+.multimedia {
+    padding: 5rem;
     text-align: center;
 }
 
-.titulo-con-logos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.multimedia-contenido {
+    margin-top: 2rem;
+}
+
+.multimedia-contenido iframe {
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    border: none;
+    border-radius: 20px;
+}
+
+/* REQUISITOS */
+
+.requisitos {
+    background-color: #f5f5f5;
+    padding: 5rem;
+    text-align: center;
+}
+
+.requisitos-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     gap: 2rem;
-    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.requisito-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+/* CTA */
+
+.cta-final {
+    background-color: var(--rojo-fuego);
+    color: white;
+    text-align: center;
+    padding: 5rem;
+}
+
+.cta-final p {
+    margin: 1.5rem 0;
+}
+
+.cta-final a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    border-radius: 999px;
 }
 
 /* -----ANIMACION----- */
